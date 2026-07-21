@@ -1,0 +1,35 @@
+# ==========================================
+# KiCad Backup & Auto-Save Files
+# ==========================================
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+*.tmp
+*.lck
+
+# ==========================================
+# KiCad Cache & Local Preferences
+# ==========================================
+fp-info-cache
+*.kicad_prl
+
+# ==========================================
+# OS-Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ==========================================
+# Optional Manufacturing / Output Files
+# (Uncomment the lines below if you don't want to track gerbers or drill files)
+# ==========================================
+# /gerbers/
+# /plots/
+# *.gbr
+# *.drl
+# *.pdf
