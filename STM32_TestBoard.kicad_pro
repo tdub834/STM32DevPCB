@@ -416,6 +416,10 @@
     [
       "41391dfe-08e9-4d74-b966-e4c1dc41e2a4",
       "MCU"
+    ],
+    [
+      "88488391-b398-4f9f-83d2-db658a46ddbe",
+      "LDO&USB"
     ]
   ],
   "text_variables": {}
