@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "18aebc4d-5de9-4f62-bc1c-f673cb616b21")
 	(paper "A4")
 	(lib_symbols)
@@ -38,11 +38,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "41391dfe-08e9-4d74-b966-e4c1dc41e2a4")
 		(property "Sheetname" "MCU"
 			(at 196.85 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,6 +54,8 @@
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
 			(at 196.85 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,6 +76,26 @@
 		(pin "D-" input
 			(at 196.85 59.69 180)
 			(uuid "a5a741ba-3d4a-4840-8f25-4c019ff61478")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 224.79 81.28 270)
+			(uuid "d6238ddb-c2a6-45e9-9c95-3b94b8039395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 228.6 81.28 270)
+			(uuid "4d6be390-6848-4122-a0d4-9c91a9326b72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,11 +124,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "88488391-b398-4f9f-83d2-db658a46ddbe")
 		(property "Sheetname" "LDO&USB"
 			(at 137.16 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,6 +140,8 @@
 		)
 		(property "Sheetfile" "LDO.kicad_sch"
 			(at 137.16 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145,6 +173,52 @@
 			(project "STM32_TestBoard"
 				(path "/18aebc4d-5de9-4f62-bc1c-f673cb616b21"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 95.25)
+		(size 53.34 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb6755f2-1cfc-4ff7-9ba8-13cdee85171b")
+		(property "Sheetname" "CANIC"
+			(at 198.12 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CANIC.kicad_sch"
+			(at 198.12 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_TestBoard"
+				(path "/18aebc4d-5de9-4f62-bc1c-f673cb616b21"
+					(page "4")
 				)
 			)
 		)
